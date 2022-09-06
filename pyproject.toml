@@ -16,7 +16,7 @@ click = "^8.1.3"
 pytest = "^7.1"
 
 [tool.poetry.scripts]
-test-script = "python_poetry_example.console:area_of_circle"
+python-poetry-example = "python_poetry_example.console:hello"
 
 [build-system]
 requires = ["poetry-core"]

@@ -1,3 +1,5 @@
+from click.testing import CliRunner
+
 from python_poetry_example import __version__
 from python_poetry_example import console
 import click.testing
@@ -8,6 +10,6 @@ def test_version():
 
 
 def test_main_succeeds():
-    runner = click.testing.CliRunner()
+    runner: CliRunner = click.testing.CliRunner()
     result = runner.invoke(console.hello)
     assert result.exit_code == 0
