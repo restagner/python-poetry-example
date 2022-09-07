@@ -1,5 +1,5 @@
 import click
-from python_poetry_example import __version__
+from pythonpoetryexample import __version__
 
 
 @click.command()

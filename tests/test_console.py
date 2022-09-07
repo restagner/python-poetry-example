@@ -1,7 +1,7 @@
 from click.testing import CliRunner
 
-from python_poetry_example import __version__
-from python_poetry_example import console
+from pythonpoetryexample import __version__
+from pythonpoetryexample import console
 import click.testing
 
 
