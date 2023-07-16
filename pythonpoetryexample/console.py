@@ -7,3 +7,6 @@ from pythonpoetryexample import __version__
 def hello():
     """The python poetry example Python project"""
     click.echo("Hello from a Python project using Poetry")
+
+
+hello()    
